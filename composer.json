@@ -1,0 +1,25 @@
+{
+  "name": "ajgl/jqgrid-bundle",
+  "type": "symfony-bundle",
+  "description": "Adds JqGrid javascript widget to Symfony2",
+  "keywords": ["jqgrid", "jquery", "grid", "javascript", "bundle", "symfony"],
+  "homepage": "https://github.com/ajgl/AjglJqGridBundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Antonio J. García Lagar",
+      "email": "aj@garcialagar.es",
+      "homepage": "http://aj.garcialagar.es",
+      "role": "developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.2",
+    "symfony/framework-bundle": ">=2.0,<2.2-dev",
+    "ajgl/jqueryui-bundle": "1.8.24"
+  },
+  "autoload": {
+    "psr-0": { "Ajgl\\Bundle\\JqGridBundle": "" }
+  },
+  "target-dir": "Ajgl/Bundle/JqGridBundle"
+}
